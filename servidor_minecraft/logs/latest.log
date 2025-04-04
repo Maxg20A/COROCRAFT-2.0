@@ -1,0 +1,320 @@
+2025-04-04 08:08:30,271 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2025-04-04 08:08:30,276 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.14 by Ubuntu
+2025-04-04 08:08:30,394 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/COROCRAFT-2.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2025-04-04 08:08:30,697 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2025-04-04 08:08:31,907 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2025-04-04 08:08:38,627 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(143)[m: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+2025-04-04 08:08:38,633 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.21 Initialized
+2025-04-04 08:08:39,046 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2025-04-04 08:08:39,588 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.setConfig(88)[m: Configuration file /workspaces/COROCRAFT-2.0/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+2025-04-04 08:08:39,593 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+2025-04-04 08:08:39,593 [33mWARN [m [m[main][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+2025-04-04 08:08:41,780 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2025-04-04 08:08:41,858 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/COROCRAFT-2.0/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2361!/assets/.mcassetsroot' uses unexpected schema
+2025-04-04 08:08:41,859 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/COROCRAFT-2.0/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2361!/data/.mcassetsroot' uses unexpected schema
+2025-04-04 08:08:44,442 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-04-04 08:08:44,446 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-04-04 08:08:44,452 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-04-04 08:08:44,457 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-04-04 08:08:44,458 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-04-04 08:08:46,907 [32mINFO [m [m[Worker-Main-5][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 7 recipes
+2025-04-04 08:08:49,292 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(150)[m: Starting minecraft server version 1.18.2
+2025-04-04 08:08:49,295 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(155)[m: Loading properties
+2025-04-04 08:08:49,295 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(172)[m: Default game type: SURVIVAL
+2025-04-04 08:08:49,296 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1286)[m: Generating keypair
+2025-04-04 08:08:49,936 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(183)[m: Starting Minecraft server on *:25565
+2025-04-04 08:08:49,985 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(79)[m: Using epoll channel type
+2025-04-04 08:08:50,167 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(195)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-04-04 08:08:50,168 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(196)[m: The server will make no attempt to authenticate usernames. Beware.
+2025-04-04 08:08:50,169 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-04-04 08:08:50,170 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(198)[m: To change this, set "online-mode" to "true" in the server.properties file.
+2025-04-04 08:08:50,281 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.18.2-184 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.2.21)
+2025-04-04 08:08:50,427 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2025-04-04 08:08:50,430 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
+2025-04-04 08:08:50,437 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2025-04-04 08:08:50,497 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.setConfig(88)[m: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+2025-04-04 08:08:50,498 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+2025-04-04 08:08:50,501 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+2025-04-04 08:08:50,502 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+2025-04-04 08:08:50,504 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+2025-04-04 08:08:50,504 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+2025-04-04 08:08:50,508 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+2025-04-04 08:08:50,508 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+2025-04-04 08:08:50,510 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+2025-04-04 08:08:50,511 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+2025-04-04 08:08:50,512 [33mWARN [m [m[Server thread][m [mn.m.c.ForgeConfigSpec.lambda$setConfig$0(91)[m: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+2025-04-04 08:08:50,546 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(224)[m: Preparing level "world"
+2025-04-04 08:09:07,475 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:overworld
+2025-04-04 08:09:09,028 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:09,038 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:09,042 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:09,054 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:09,631 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:10,080 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:10,683 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:11,064 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:11,484 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:12,060 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:12,504 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:12,984 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:13,477 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:09:14,038 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2025-04-04 08:09:14,525 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2025-04-04 08:09:15,004 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2025-04-04 08:09:15,510 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2025-04-04 08:09:16,014 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2025-04-04 08:09:16,510 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2025-04-04 08:09:16,980 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2025-04-04 08:09:17,496 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2025-04-04 08:09:18,006 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2025-04-04 08:09:18,520 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 5%
+2025-04-04 08:09:19,077 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2025-04-04 08:09:19,491 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2025-04-04 08:09:20,060 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2025-04-04 08:09:20,527 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 7%
+2025-04-04 08:09:20,980 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 8%
+2025-04-04 08:09:21,505 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 9%
+2025-04-04 08:09:22,098 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2025-04-04 08:09:22,501 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2025-04-04 08:09:22,979 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-04-04 08:09:23,599 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 12%
+2025-04-04 08:09:23,980 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 13%
+2025-04-04 08:09:24,478 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2025-04-04 08:09:25,006 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2025-04-04 08:09:25,532 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 16%
+2025-04-04 08:09:26,046 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2025-04-04 08:09:26,495 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2025-04-04 08:09:26,985 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 18%
+2025-04-04 08:09:27,499 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 19%
+2025-04-04 08:09:27,977 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
+2025-04-04 08:09:28,481 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
+2025-04-04 08:09:28,978 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 22%
+2025-04-04 08:09:29,490 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 22%
+2025-04-04 08:09:29,977 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
+2025-04-04 08:09:30,490 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 24%
+2025-04-04 08:09:30,978 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 24%
+2025-04-04 08:09:31,478 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 25%
+2025-04-04 08:09:31,980 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 26%
+2025-04-04 08:09:32,485 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2025-04-04 08:09:33,004 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 28%
+2025-04-04 08:09:33,575 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 30%
+2025-04-04 08:09:33,983 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2025-04-04 08:09:34,492 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 32%
+2025-04-04 08:09:34,992 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 32%
+2025-04-04 08:09:35,496 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 33%
+2025-04-04 08:09:36,029 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 34%
+2025-04-04 08:09:36,487 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 35%
+2025-04-04 08:09:37,068 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 36%
+2025-04-04 08:09:37,478 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 36%
+2025-04-04 08:09:37,983 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 37%
+2025-04-04 08:09:38,527 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 39%
+2025-04-04 08:09:38,978 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 40%
+2025-04-04 08:09:39,482 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 41%
+2025-04-04 08:09:39,989 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 42%
+2025-04-04 08:09:40,479 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 43%
+2025-04-04 08:09:40,985 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 44%
+2025-04-04 08:09:41,582 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 44%
+2025-04-04 08:09:42,012 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 44%
+2025-04-04 08:09:42,478 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 45%
+2025-04-04 08:09:42,979 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 47%
+2025-04-04 08:09:43,515 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 48%
+2025-04-04 08:09:43,998 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 50%
+2025-04-04 08:09:44,497 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 51%
+2025-04-04 08:09:44,980 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 52%
+2025-04-04 08:09:45,525 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2025-04-04 08:09:45,997 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2025-04-04 08:09:46,522 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 55%
+2025-04-04 08:09:46,999 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 55%
+2025-04-04 08:09:47,486 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 56%
+2025-04-04 08:09:47,980 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 58%
+2025-04-04 08:09:48,505 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 59%
+2025-04-04 08:09:49,039 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 60%
+2025-04-04 08:09:49,504 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 62%
+2025-04-04 08:09:49,982 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 63%
+2025-04-04 08:09:50,481 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 64%
+2025-04-04 08:09:50,977 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 66%
+2025-04-04 08:09:51,492 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 67%
+2025-04-04 08:09:51,983 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 68%
+2025-04-04 08:09:52,477 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 68%
+2025-04-04 08:09:53,023 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 69%
+2025-04-04 08:09:53,518 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 70%
+2025-04-04 08:09:53,978 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 71%
+2025-04-04 08:09:54,497 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 72%
+2025-04-04 08:09:55,031 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 73%
+2025-04-04 08:09:55,514 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 75%
+2025-04-04 08:09:55,981 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 76%
+2025-04-04 08:09:56,482 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 78%
+2025-04-04 08:09:57,014 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 79%
+2025-04-04 08:09:57,480 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 81%
+2025-04-04 08:09:57,983 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 82%
+2025-04-04 08:09:58,496 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 83%
+2025-04-04 08:09:58,978 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
+2025-04-04 08:09:59,526 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 84%
+2025-04-04 08:10:00,061 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 85%
+2025-04-04 08:10:00,498 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 86%
+2025-04-04 08:10:01,006 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 88%
+2025-04-04 08:10:01,529 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 89%
+2025-04-04 08:10:01,981 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 90%
+2025-04-04 08:10:02,484 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 91%
+2025-04-04 08:10:02,978 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 92%
+2025-04-04 08:10:03,478 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 93%
+2025-04-04 08:10:03,982 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 95%
+2025-04-04 08:10:04,496 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 96%
+2025-04-04 08:10:04,979 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 97%
+2025-04-04 08:10:05,492 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 99%
+2025-04-04 08:10:05,695 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 58219 ms
+2025-04-04 08:10:05,707 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_nether
+2025-04-04 08:10:06,350 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:06,351 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:06,719 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:07,256 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:07,756 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:08,216 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:08,709 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:09,218 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:09,710 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:10,213 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:10,711 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2025-04-04 08:10:11,214 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 1%
+2025-04-04 08:10:11,727 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2025-04-04 08:10:12,224 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2025-04-04 08:10:12,722 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2025-04-04 08:10:13,226 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2025-04-04 08:10:13,709 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2025-04-04 08:10:14,244 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 8%
+2025-04-04 08:10:14,720 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 9%
+2025-04-04 08:10:15,238 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 10%
+2025-04-04 08:10:15,712 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-04-04 08:10:16,216 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 15%
+2025-04-04 08:10:16,718 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2025-04-04 08:10:17,216 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 20%
+2025-04-04 08:10:17,723 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 23%
+2025-04-04 08:10:18,217 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 26%
+2025-04-04 08:10:18,760 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 29%
+2025-04-04 08:10:19,209 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 31%
+2025-04-04 08:10:19,709 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 34%
+2025-04-04 08:10:20,221 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 37%
+2025-04-04 08:10:20,710 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 40%
+2025-04-04 08:10:21,227 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 42%
+2025-04-04 08:10:21,723 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 45%
+2025-04-04 08:10:22,210 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 48%
+2025-04-04 08:10:22,711 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 52%
+2025-04-04 08:10:23,220 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 54%
+2025-04-04 08:10:23,712 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 56%
+2025-04-04 08:10:24,209 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 59%
+2025-04-04 08:10:24,710 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 62%
+2025-04-04 08:10:25,216 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 65%
+2025-04-04 08:10:25,714 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 68%
+2025-04-04 08:10:26,210 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 71%
+2025-04-04 08:10:26,709 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 74%
+2025-04-04 08:10:27,215 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 77%
+2025-04-04 08:10:27,712 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 80%
+2025-04-04 08:10:28,218 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 83%
+2025-04-04 08:10:28,710 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 86%
+2025-04-04 08:10:29,211 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 89%
+2025-04-04 08:10:29,716 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 93%
+2025-04-04 08:10:30,214 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 96%
+2025-04-04 08:10:30,540 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 24832 ms
+2025-04-04 08:10:30,543 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_end
+2025-04-04 08:10:30,748 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:31,044 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-04-04 08:10:31,545 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 6%
+2025-04-04 08:10:32,044 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 33%
+2025-04-04 08:10:32,602 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 58%
+2025-04-04 08:10:33,044 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 92%
+2025-04-04 08:10:33,136 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 2593 ms
+2025-04-04 08:10:33,154 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(228)[m: Done (102.669s)! For help, type "help"
+2025-04-04 08:10:33,169 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2025-04-04 08:11:14,474 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §e--------- §fHelp: Index §e---------------------------
+2025-04-04 08:11:14,474 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §7Use /help [n] to get page n of help.
+2025-04-04 08:11:14,474 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §7§6Aliases: §fLists command aliases
+2025-04-04 08:11:14,474 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6Bukkit: §fAll commands for Bukkit
+2025-04-04 08:11:14,475 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6Minecraft: §fAll commands for Minecraft
+2025-04-04 08:11:14,475 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/advancement: §fA Mojang provided command.
+2025-04-04 08:11:14,475 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/attribute: §fA Mojang provided command.
+2025-04-04 08:11:14,475 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/ban: §fA Mojang provided command.
+2025-04-04 08:11:14,475 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/ban-ip: §fA Mojang provided command.
+2025-04-04 08:11:14,475 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/banlist: §fA Mojang provided command.
+2025-04-04 08:11:14,476 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/bossbar: §fA Mojang provided command.
+2025-04-04 08:11:14,476 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/clear: §fA Mojang provided command.
+2025-04-04 08:11:14,476 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/clone: §fA Mojang provided command.
+2025-04-04 08:11:14,476 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/config: §fA Mojang provided command.
+2025-04-04 08:11:14,476 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/data: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/datapack: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/debug: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/defaultgamemode: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/deop: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/difficulty: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/effect: §fA Mojang provided command.
+2025-04-04 08:11:14,477 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/enchant: §fA Mojang provided command.
+2025-04-04 08:11:14,478 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/execute: §fA Mojang provided command.
+2025-04-04 08:11:14,478 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/experience: §fA Mojang provided command.
+2025-04-04 08:11:14,478 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/fill: §fA Mojang provided command.
+2025-04-04 08:11:14,478 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/forceload: §fA Mojang provided command.
+2025-04-04 08:11:14,478 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/forge: §fA Mojang provided command.
+2025-04-04 08:11:14,478 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/function: §fA Mojang provided command.
+2025-04-04 08:11:14,479 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/gamemode: §fA Mojang provided command.
+2025-04-04 08:11:14,479 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/gamerule: §fA Mojang provided command.
+2025-04-04 08:11:14,479 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/give: §fA Mojang provided command.
+2025-04-04 08:11:14,479 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/help: §fShows the help menu
+2025-04-04 08:11:14,479 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/item: §fA Mojang provided command.
+2025-04-04 08:11:14,480 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/jfr: §fA Mojang provided command.
+2025-04-04 08:11:14,480 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/kick: §fA Mojang provided command.
+2025-04-04 08:11:14,480 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/kill: §fA Mojang provided command.
+2025-04-04 08:11:14,480 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/list: §fA Mojang provided command.
+2025-04-04 08:11:14,480 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/locate: §fA Mojang provided command.
+2025-04-04 08:11:14,480 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/locatebiome: §fA Mojang provided command.
+2025-04-04 08:11:14,481 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/loot: §fA Mojang provided command.
+2025-04-04 08:11:14,481 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/me: §fA Mojang provided command.
+2025-04-04 08:11:14,481 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/minecraft:help: §fA Mojang provided command.
+2025-04-04 08:11:14,482 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/minecraft:reload: §fA Mojang provided command.
+2025-04-04 08:11:14,482 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/msg: §fA Mojang provided command.
+2025-04-04 08:11:14,482 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/op: §fA Mojang provided command.
+2025-04-04 08:11:14,482 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/pardon: §fA Mojang provided command.
+2025-04-04 08:11:14,482 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/pardon-ip: §fA Mojang provided command.
+2025-04-04 08:11:14,482 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/particle: §fA Mojang provided command.
+2025-04-04 08:11:14,483 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/perf: §fA Mojang provided command.
+2025-04-04 08:11:14,483 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/placefeature: §fA Mojang provided command.
+2025-04-04 08:11:14,483 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/playsound: §fA Mojang provided command.
+2025-04-04 08:11:14,483 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/plugins: §fGets a list of plugins running on the server
+2025-04-04 08:11:14,483 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/recipe: §fA Mojang provided command.
+2025-04-04 08:11:14,483 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/reload: §fReloads the server configuration and plugins
+2025-04-04 08:11:14,484 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/save-all: §fA Mojang provided command.
+2025-04-04 08:11:14,484 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/save-off: §fA Mojang provided command.
+2025-04-04 08:11:14,484 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/save-on: §fA Mojang provided command.
+2025-04-04 08:11:14,484 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/say: §fA Mojang provided command.
+2025-04-04 08:11:14,484 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/schedule: §fA Mojang provided command.
+2025-04-04 08:11:14,485 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/scoreboard: §fA Mojang provided command.
+2025-04-04 08:11:14,485 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/seed: §fA Mojang provided command.
+2025-04-04 08:11:14,485 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/setblock: §fA Mojang provided command.
+2025-04-04 08:11:14,485 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/setidletimeout: §fA Mojang provided command.
+2025-04-04 08:11:14,485 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/setworldspawn: §fA Mojang provided command.
+2025-04-04 08:11:14,486 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/spawnpoint: §fA Mojang provided command.
+2025-04-04 08:11:14,486 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/spectate: §fA Mojang provided command.
+2025-04-04 08:11:14,486 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/spigot: §fSpigot related commands
+2025-04-04 08:11:14,486 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/spreadplayers: §fA Mojang provided command.
+2025-04-04 08:11:14,486 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/stop: §fA Mojang provided command.
+2025-04-04 08:11:14,487 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/stopsound: §fA Mojang provided command.
+2025-04-04 08:11:14,487 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/summon: §fA Mojang provided command.
+2025-04-04 08:11:14,487 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/tag: §fA Mojang provided command.
+2025-04-04 08:11:14,487 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/team: §fA Mojang provided command.
+2025-04-04 08:11:14,488 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/teammsg: §fA Mojang provided command.
+2025-04-04 08:11:14,488 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/teleport: §fA Mojang provided command.
+2025-04-04 08:11:14,488 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/tell: §fA Mojang provided command.
+2025-04-04 08:11:14,488 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/tellraw: §fA Mojang provided command.
+2025-04-04 08:11:14,488 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/time: §fA Mojang provided command.
+2025-04-04 08:11:14,489 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/timings: §fRecords timings for all plugin events
+2025-04-04 08:11:14,489 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/title: §fA Mojang provided command.
+2025-04-04 08:11:14,489 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/tm: §fA Mojang provided command.
+2025-04-04 08:11:14,489 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/tp: §fA Mojang provided command.
+2025-04-04 08:11:14,489 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/tps: §fGets the current ticks per second for the server
+2025-04-04 08:11:14,489 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/trigger: §fA Mojang provided command.
+2025-04-04 08:11:14,490 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/version: §fGets the version of this server including any plugins in use
+2025-04-04 08:11:14,490 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/w: §fA Mojang provided command.
+2025-04-04 08:11:14,490 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/weather: §fA Mojang provided command.
+2025-04-04 08:11:14,490 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/whitelist: §fA Mojang provided command.
+2025-04-04 08:11:14,490 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/worldborder: §fA Mojang provided command.
+2025-04-04 08:11:14,490 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: §f§6/xp: §fA Mojang provided command.
+2025-04-04 08:11:46,421 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.
+2025-04-04 08:14:50,771 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.
+2025-04-04 08:17:22,021 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.
